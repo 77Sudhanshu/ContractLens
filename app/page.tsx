@@ -53,7 +53,7 @@ export default function Home() {
         </div>
 
         <Link
-          href="/dashboard"
+          href="/contracts"
           className="rounded-lg border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium transition hover:bg-white/10"
         >
           Open Dashboard
@@ -83,7 +83,7 @@ export default function Home() {
 
           <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <Link
-              href="/dashboard"
+              href="/contracts"
               className="group flex items-center gap-2 rounded-xl bg-blue-600 px-6 py-3.5 text-sm font-semibold shadow-xl shadow-blue-600/20 transition hover:bg-blue-500"
             >
               Explore ContractLens
@@ -359,7 +359,7 @@ export default function Home() {
             </p>
 
             <Link
-              href="/dashboard"
+              href="/contracts"
               className="mt-8 inline-flex items-center gap-2 rounded-xl bg-white px-5 py-3 text-sm font-semibold text-black transition hover:bg-zinc-200"
             >
               Start exploring
